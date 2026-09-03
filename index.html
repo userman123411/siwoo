@@ -39,6 +39,7 @@
         radial-gradient(circle at 82% 22%, rgba(255,255,255,.54) 0 7%, transparent 7.2%),
         radial-gradient(circle at 74% 65%, rgba(255,255,255,.4) 0 16%, transparent 16.2%),
         linear-gradient(132deg, #efb8b0 0%, #f6d9cf 48%, #d8878d 100%);
+      background: linear-gradient(132deg, #efb8b0 0%, #f6d9cf 52%, #d8878d 100%);
     }
 
     .hero::before, .hero::after {
@@ -50,6 +51,8 @@
     }
     .hero::before { width: 420px; height: 700px; right: 6%; top: -110px; }
     .hero::after { width: 270px; height: 470px; right: 19%; top: 120px; opacity: .45; }
+    .hero::before { width: 360px; height: 600px; right: 7%; top: -90px; opacity: .6; }
+    .hero::after { width: 230px; height: 400px; right: 20%; top: 135px; opacity: .25; }
 
     .topline, .hero-copy, .hero-meta { position: relative; z-index: 1; }
     .topline {
@@ -77,9 +80,12 @@
       color: var(--plum);
       font-family: Georgia, "Times New Roman", serif;
       font-size: clamp(3.5rem, 10vw, 8rem);
+      font-size: clamp(2.45rem, 5.2vw, 4.6rem);
       font-weight: 500;
       line-height: .98;
       letter-spacing: -.07em;
+      line-height: 1.12;
+      letter-spacing: -.055em;
     }
     .hero-intro {
       max-width: 510px;
